@@ -3,5 +3,8 @@
 
     <string name="hello_world">Hello world!</string>
     <string name="action_settings">Settings</string>
+<<<<<<< HEAD
     <string name="title_activity_settings_activity_dual_cache">SettingsActivityDualCache</string>
+=======
+>>>>>>> origin/master
 </resources>

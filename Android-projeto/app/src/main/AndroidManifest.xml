@@ -16,6 +16,7 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+<<<<<<< HEAD
         <activity
             android:name=".SettingsActivityDualCache"
             android:label="@string/title_activity_settings_activity_dual_cache"
@@ -25,6 +26,8 @@
         </activity>
         <activity android:name=".DemoActivityEasyCache" >
         </activity>
+=======
+>>>>>>> origin/master
     </application>
 
 </manifest>

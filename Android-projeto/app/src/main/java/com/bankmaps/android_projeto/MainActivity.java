@@ -1,6 +1,9 @@
 package com.bankmaps.android_projeto;
 
+<<<<<<< HEAD
 import android.content.Intent;
+=======
+>>>>>>> origin/master
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
 import android.view.View;
@@ -13,7 +16,11 @@ import android.widget.Toast;
 public class MainActivity extends AppCompatActivity {
 
 
+<<<<<<< HEAD
     public String[] libsNome = new String[]{"Android easy cache", "Simple Disk Cache", "Android-BitmapCache", "Qachee"};
+=======
+    public String[] libsNome = new String[]{"Android easy cache", "Simple Disk Cache", "Android-BitmapCache"};
+>>>>>>> origin/master
     public int img[] = {R.drawable.ferrari, R.drawable.ferrari, R.drawable.ferrari};
 
     private Spinner sp;
@@ -51,12 +58,16 @@ public class MainActivity extends AppCompatActivity {
         long id = sp.getSelectedItemId();
         int posicao = sp.getSelectedItemPosition();
 
+<<<<<<< HEAD
         if(sp.getSelectedItemId()==0){
             Intent intent =  new Intent(this, SettingsEasyCache.class);
             startActivity(intent);
             Toast.makeText(this, "Lib: " + nome, Toast.LENGTH_SHORT).show();
         }
 //        Toast.makeText(this, "Lib: " + nome, Toast.LENGTH_SHORT).show();
+=======
+        Toast.makeText(this, "Lib: " + nome, Toast.LENGTH_SHORT).show();
+>>>>>>> origin/master
 
     }
 
